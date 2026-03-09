@@ -1,6 +1,28 @@
-#include <stdio.h>
+Q) Example of  hello world program in c language:
 
- int main(){ 
-     printf("Hello, World! i am learing c programming language\n");
-     return 0;
+    #include <stdio.h>   // standard input-output libarary
+
+
+    int main()        //The main function is where the program execution begins.
+{
+    printf("Hello, World! i am learing c programming language\n");    //print() is use to display text on the screem
+
+     return 0;      //return 0 indicates that the program has executed successfully.
 }
+
+
+//output:
+//command flow:-
+1) cd Desktop
+      ↓
+2) nano Hello_Worls.c //write the code & [ctrl+o  save & ctrl+x  exit]
+      ↓
+3) gcc Hello_World.C
+      ↓
+4) ctrl+c^
+      ↓
+5) ls
+      ↓
+6) ./a. out
+      ↓
+7) "Hello, World! i am learing c programming language"  
