@@ -17,3 +17,13 @@ int main() {      //entry point function
 
     return 0;  //return responce-sucessful return
 }
+
+
+/*Output*/
+ppp@ppp-Inspiron-15-3567:~/c-lang-prog$ cd "/home/ppp/c-lang-prog/c-programmig/Data_Types_in_c/Derived_Data_Types/" && gcc Array.c -o Array && "/home/ppp/c-lang-prog/c-programmig/Data_Types_in_c/Derived_Data_Types/"Array
+Elements in the array are:
+Element 0: 10
+Element 1: 20
+Element 2: 30
+Element 3: 40
+Element 4: 50
